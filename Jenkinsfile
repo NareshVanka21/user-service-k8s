@@ -18,7 +18,7 @@ pipeline {
             steps {
                 checkout scmGit(
                     branches: [[name: '*/main']],
-                    userRemoteConfigs: [[url: 'https://github.com/NareshVanka21/jenkins-ci-cd.git']]
+                    userRemoteConfigs: [[url: 'https://github.com/NareshVanka21/user-service-k8s.git']]
                 )
             }
         }

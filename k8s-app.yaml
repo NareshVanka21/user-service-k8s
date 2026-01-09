@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
         - name: user-app-container
-          image: user-newapp:2.0
+          image: ''
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 9191
